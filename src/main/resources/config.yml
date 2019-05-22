@@ -1,0 +1,11 @@
+#商店配置
+shopConfig:
+  #商店显示的格数
+  shopSlotNum: 27
+  #商店中物品的样式
+  itemType: PAPER
+
+#商店中的物品
+shopItems:
+- prefix: '&7Villager'
+  price: 0

@@ -1,0 +1,26 @@
+BOX_TITLE: '称号商店'
+#无权限提醒
+COMMAND_PERMISSIONDENIEDMESSAGE: '&4你没有使用 /{0} 命令的权限'
+#不属于命令执行范围，如玩家无法执行控制台命令，控制台无法执行玩家的命令
+COMMAND_NOCOMMANDSENDERTYPEMESSAGE: '&4你使用的终端无法使用该命令'
+#参数列表不正确
+COMMAND_ARGS_ERROR: '&4参数列表不正确'
+#命令未找到
+COMMAND_NOT_FOUND_COMMAND: '&4命令不存在'
+
+#------命令描述的语言配置------
+
+COMMAND_USEAGE_OPEN: '&7/prefixshop &b[open]  &2| 打开商店'
+COMMAND_USEAGE_RELOAD: '&7/prefixshop &breload  &2| 重载配置'
+COMMAND_USEAGE_HELP: '&7/prefixshop &bhelp  &2| 显示帮助'
+
+#------文字配置------
+#打开商店的标题
+MESSAGE_PAY_SUCCESS: '&a你成功购买称号:{0}'
+MESSGE_ALREADY_HAVE: '&e你已拥有称号:{0}'
+MESSAGE_TITLE: '&a[&e称号商店&a]'
+MESSAGE_RELOAD_SUCCESS: '&a配置已重新加载'
+MESSAGE_INSUFFICIENT_BALANCE: '&e余额不足'
+
+TEXT_PUT_PREFIX: '&b点击购买此称号'
+TEXT_PREICE: '&e价格：{0}'
