@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.mountcloud.mcplugin</groupId>
-  <artifactId>prefixshop</artifactId>
+  <groupId>org.mountcloud</groupId>
+  <artifactId>mc-plugin-prefixshop</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
 
@@ -56,14 +56,14 @@
 	</dependency>
 	
 	<dependency>
-		<groupId>org.mountcloud.mcplugin</groupId>
-		<artifactId>prefix-api</artifactId>
+		<groupId>org.mountcloud</groupId>
+		<artifactId>mc-plugin-prefix-api</artifactId>
 		<version>1.0</version>
 		<scope>provided</scope>
 	</dependency>
 
 	  <dependency>
-		  <groupId>org.mountcloud.mcplugin</groupId>
+		  <groupId>org.mountcloud</groupId>
 		  <artifactId>mc-plugin-common</artifactId>
 		  <version>1.13-R0.1-SNAPSHOT-v1.0</version>
 		  <scope>provided</scope>
